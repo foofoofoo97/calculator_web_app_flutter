@@ -1,0 +1,37 @@
+name: flutter_calculator_app
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+#  assets:
+
+  fonts:
+     - family: PatrickHand
+       fonts:
+         - asset: fonts/Mali-Regular.ttf
+     - family: PottaOne
+       fonts:
+         - asset: fonts/PottaOne-Regular.ttf
+     - family: OpenSans
+       fonts:
+         - asset: fonts/OpenSans-Regular.ttf
+     - family: Lato
+       fonts:
+         - asset: fonts/Lato-Regular.ttf
